@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE adresar SYSTEM "dtdadresar.dtd">
+
+<adresar xmlns="http://www.viser.edu.rs/nrt4016"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.viser.edu.rs/nrt4016 sema.xsd">
+  <osoba sifra="osoba1">
+
+    <punoIme>
+      <ime>Ljiljana</ime>
+      <prezime>Habjanović</prezime>
+      <prezime>Đurović</prezime>
+    </punoIme>
+
+    <datumRodjenja>
+      <dan>6</dan>
+      <mesec>9</mesec>
+      <godina>1953</godina>
+    </datumRodjenja>
+
+    <adresa tip="stalna">
+      <ulica>Nemanjina</ulica>
+      <broj>10</broj>
+      <grad>Beograd</grad>
+    </adresa>
+
+    <telefon tip="mobilni">065/231-123</telefon>
+
+    <email tip="sluzbeni">lhabjanovic@yahoo.com</email>
+
+    <email tip="privatni">lhabjanovic@gmail.com</email>
+
+  </osoba>
+
+  <osoba sifra="osoba2">
+
+    <punoIme>
+      <ime>Marko</ime>
+      <srednjeIme>Žarko</srednjeIme>
+      <prezime>Živojinović</prezime>
+    </punoIme>
+
+    <datumRodjenja>
+      <dan>16</dan>
+      <mesec>2</mesec>
+      <godina>1998</godina>
+    </datumRodjenja>
+
+    <adresa tip="stalna">
+      <ulica>Volgina</ulica>
+      <broj>28</broj>
+      <grad>Beograd</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+
+    <telefon tip="mobilni">061/421-322</telefon>
+
+    <email tip="privatni">markozivojinovic1234@gmail.com</email>
+
+    <email tip="privatni">markozivojinovic@gmail.com</email>
+
+    <email tip="sluzbeni">markosluzbeno@gmail.com</email>
+
+  </osoba>
+
+
+  <osoba sifra="osoba3">
+
+    <punoIme>
+      <ime>Igor</ime>
+      <prezime>Marković</prezime>
+    </punoIme>
+
+    <datumRodjenja>
+      <dan>5</dan>
+      <mesec>4</mesec>
+      <godina>1997</godina>
+    </datumRodjenja>
+
+    <adresa tip="stalna">
+      <ulica>Crnotravska</ulica>
+      <broj>10</broj>
+      <grad>Zajecar</grad>
+    </adresa>
+
+    <telefon tip="fiksni">011/321-632</telefon>
+
+    <email tip="sluzbeni">ibrdaric@yahoo.com</email>
+
+    <email tip="privatni">ibrdaric@gmail.com</email>
+
+    <email tip="privatni">ibrdaric@gmail.com</email>
+
+  </osoba>
+
+  <kompanija sifra="kompanija1">
+    <naziv>SMB d.o.o</naziv>
+
+    <adresa>
+      <ulica>Bulevar Despota Stefana</ulica>
+      <broj>128</broj>
+      <grad>Beograd</grad>
+    </adresa>
+
+    <telefon tip="fiksni">021/452-321</telefon>
+
+    <email tip="sluzbeni">sluzbeno@smbi.com</email>
+
+    <email tip="sluzbeni">poslovi@smbi.com</email>
+
+  </kompanija>
+
+  <kompanija sifra="kompanija2">
+    <naziv>VISER</naziv>
+
+    <adresa tip="stalna">
+      <ulica>Vojvode Stepe</ulica>
+      <broj>283</broj>
+      <grad>Beograd</grad>
+    </adresa>
+
+    <telefon tip="fiksni">011/521-682</telefon>
+
+    <email tip="sluzbeni">informacije@viser.com</email>
+
+    <email tip="sluzbeni">upis@viser.com</email>
+
+  </kompanija>
+
+  <kompanija sifra="kompanija3">
+    <naziv>GATGATA</naziv>
+
+    <adresa tip="stalna">
+      <ulica>Bulevar Oslobođenja </ulica>
+      <broj>30</broj>
+      <grad>Novi Sad</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+
+    <telefon tip="mobilni">063/321-689</telefon>
+
+    <email tip="sluzbeni">sluzbeno@gatovi.com</email>
+
+    <email tip="sluzbeni">poslovi@gatovi.com</email>
+
+    <email tip="sluzbeni">oficijalan@gatovi.com</email>
+
+  </kompanija>
+
+</adresar>
